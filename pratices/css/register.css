@@ -1,0 +1,39 @@
+/*=======================================页面通配样式==================================================*/
+*{padding: 0;margin:0;}
+body{font:12px/150% Arial,Tahoma,"宋体";color:#606060; }
+a{text-decoration: none;}
+li{list-style: none;}
+.main{width:1000px;margin:0 auto;}
+/*===================================================TOP头部===================================================*/
+#top{height:96px;}
+#top .main{position: relative;overflow: hidden;border-bottom: 3px solid #479202}
+#top .main a{display: inline-block;margin: 15px 0 0 17px;float: left;}
+/*====================================================注册账户===========================================================*/
+#join{height:500px;margin-top: 20px}
+#join .main{position: relative;}
+#join .pic{position: absolute;z-index: 0;}
+#join .input{position: absolute;z-index: 3;background: #fff;width:344px;height:450px;border: 1px solid #ddd;top:30px;left:30px;padding-left: 36px;overflow: hidden;}
+#join .input h3{height:61px;font-size: 14px;line-height: 61px;margin-top: 5px}
+#join .input h3 span{font-size: 12px;margin-left: 90px;}
+#join .input h3 a{color:#8cb91e;font-size: 12px;float: right;margin-right: 30px;}
+#join .input input{height:26px;width:302px;border: 1px solid #aaa}
+#join .input #code{width:180px;}
+#join .input #makecode{width:80px;height:26px;border: 1px solid #aaa;background: #eee;margin-left: 10px;font-size: 16px;}
+.join{width:208px;height:30px;background: url(../images/login.png) no-repeat 0 -5px;color:#fff;}
+#join .input p{color:#f00;height:30px;}
+/**/
+#bottom{height:98px;background: #efefef;margin-top: 20px;border-bottom: 28px solid #8cb91e;}
+#bottom .main{text-align: center;}
+
+
+
+
+
+
+
+
+
+
+
+
+

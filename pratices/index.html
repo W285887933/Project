@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset = "utf-8" />
+		<title>中粮我买</title>		
+		<script type = "text/javascript" src = "js/jquery-1.10.1.min.js"></script>
+		<script type = "text/javascript" src = "js/jquery.cookie.js"></script>
+		<script type = "text/javascript" src="http://int.dpool.sina.com.cn/iplookup/iplookup.php?format=js"></script>
+		<script type = "text/javascript" src = "js/tool.js"></script>
+		<script type = "text/javascript" src = "js/home.js"></script>  
+		<script type = "text/javascript" src = "js/ajax.js"></script>
+		<script type = "text/javascript" src = "js/common.js"></script>
+		<link rel = "stylesheet" type = "text/css" href = "css/home.css"/>
+		<link rel = "stylesheet" type = "text/css" href = "css/common.css">
+	</head>
+
+	<body>
+	<!--+++++++++++++++++++++++++++++++++顶部图片++++++++++++++++++++++++++++++++++++-->
+		<div id = "top">
+		</div> 
+		<!--+++++++++++++++++++++++++++++++顶部导航栏+++++++++++++++++++++++++++++++++-->
+			<div id="top_nav">
+			<div id="main">
+				<div id = "city">当前城市:
+					<a class="city_a">
+						<span id = "city1">
+						</span>
+						<span id = "select"></span>
+					</a>
+					<div id="city_d">
+					<span class = "dele"></span>
+						<p class = "current">您当前的所在城市为:
+							<span class = "city_s"></span>
+						</p>
+
+					</div>
+				</div>
+				<ul id = "welcome">
+					<li class = "wel_1">hi,欢迎来我买网！</li>
+					<li class = "wel_2"><a href = "index/join.html" target = "_blank">登录</a></li>
+					<li class = "wel_3"><a href = "index/register.html" target = "_blank">注册</a></li>
+				</ul>
+				<ul id = "ul_nav">
+					<li class = "account">我的账户<span></span>
+						<div id = "account_d">
+							<p class = "login">您还没有登录！<a class = "login_a"></a></p>
+						</div>
+					</li>
+					<li class = "shoopcar"><a href=""><span></span>购物车<i></i>件</a></li>
+					<li>|</li>
+					<li class = "serve">客户服务<span></span>
+						<div id="serve_d">
+							<p><a href="">帮助中心</a></p>
+							<p><a href="">新手上路</a></p>
+						</div>
+					</li>
+					<li>|</li>
+					<li class = "bigCustom"><a href = "index/vip.html">大客户</a></li>
+					<li>|</li>
+					<li  class = "b2b"><a href = "index/b2b.html">B2B</a></li>
+					<li>|</li>
+					<li class = "icbc"><a href="http://www.womai.com/sale/2012/icbclika/"></a></li>
+					<li class = "bank"><a href="http://www.womai.com/sale/2013/cncblika/"></a></li>
+				</ul>
+			</div>	
+		</div>
+		<!--+++++++++++++++++++++++++++++++LOGO搜索栏+++++++++++++++++++++++++++++++++-->
+		<div id="logo">
+			<div id="main">				
+					<div id="logo_left">
+					<a href = "index.html">
+						<img src = "http://pic1.womai.com/upload/backend/2016/08/31/18/1472640153727.png" alt = "中粮我买">
+					</a>
+				</div>
+				<div id = "logo_center">
+					<a href = " http://www.womai.com/sale/2016/zzdzx1608/">
+						<img src = "http://pic1.womai.com/upload/backend/2016/09/18/15/1474183694750.jpg" alt = "大闸蟹">
+					</a>
+				</div>
+				<div id = "logo_app">
+					<a href = "http://www.womai.com/sale/2016/shouji/ ">
+						<img src = "http://pic1.womai.com/upload/backend/2016/09/06/14/1473142235649.jpg" alt = "下载客户端">
+					</a>
+				</div>
+				<form id = "search">
+					<div id = "search_left">
+					    <span></span>
+						<input type="text" placeholder = "全球零食狂欢 满99减30">
+						<button type = "submit">搜索</button>
+					</div>
+					<div class = "text">
+						<a href = "/Search.do?mid=0">高级搜索</a>
+					</div>
+						<p id = "newgood">
+						<a href = "">玉米油</a>
+						<a href = "">酒</a>
+						<a href = "">大米</a>
+						<a href = "">牛奶</a>
+						<a href = "">大闸蟹</a>
+						<a href = "">bigbang</a>
+					</p>
+				</form>
+
+				<div id="allgoods">
+					全部商品分类
+				</div>
+				<ul id = "recommend">
+					<li><a href="">团购</a></li>
+					<li><a href="">大闸蟹</a></li>
+					<li><a href="">试吃</a></li>
+					<li><a href="">每日鲜</a></li>
+					<li><a href="">我买酒</a></li>
+					<li><a href="">我买自有</a></li>
+					<li><a href="">中粮专区</a></li>
+					<li><a href="">包邮直送</a></li>
+					<li><a href="">我买海淘</a></li>
+				</ul>
+				<div id = "car">
+					<span class = "bg">
+						<i></i>
+					</span>
+					<a href="">购物车</a>
+					<em></em>
+					<div id="car_d">
+						<p></p>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!--+++++++++++++++++++++++++++++++banner+++++++++++++++++++++++++++++++++-->
+		<div id = "banner">
+			<div id = "main">
+
+			</div>
+		</div>
+		<!--+++++++++++++++++++++++++++++++每日劲爆品+++++++++++++++++++++++++++++++++-->
+		 <div id = "guide0">
+			<div id = "main">
+			
+			</div>
+		</div> 
+		<!--+++++++++++++++++++++++++++++++我买特色+++++++++++++++++++++++++++++++++-->
+		<div id = "guide1">
+			<div id = "main">
+				
+			</div>
+		</div> 
+	
+
+
+		<!--+++++++++++++++++++++++++++++++我买推荐+++++++++++++++++++++++++++++++++-->
+		<div id = "guide2">
+			<div id = "main">
+				
+			</div>
+		</div> 
+		<!--+++++++++++++++++++++++++++++++Gap间隔+++++++++++++++++++++++++++++++++-->
+		<div id = "guide3">
+			<div id = "main">
+				
+			</div>
+		</div> 
+				<!--+++++++++++++++++++++++++++++++楼层一+++++++++++++++++++++++++++++++++-->
+
+		<div id="floor1">
+			<div id="main"></div>
+		</div>
+				<!--+++++++++++++++++++++++++++++++楼层二+++++++++++++++++++++++++++++++++-->
+
+		<div id="floor2">
+			<div id="main"></div>
+		</div>
+					<!--+++++++++++++++++++++++++++++++楼层三+++++++++++++++++++++++++++++++++-->
+
+		<div id="floor3">
+			<div id="main"></div>
+		</div>
+					<!--+++++++++++++++++++++++++++++++楼层四+++++++++++++++++++++++++++++++++-->
+
+		<div id="floor4">
+			<div id="main"></div>
+		</div>
+					<!--+++++++++++++++++++++++++++++++楼层四+++++++++++++++++++++++++++++++++-->
+
+		<div id="summary">
+			<div id="main">
+				<p class = "gap"></p>
+			</div>
+		</div>
+					<!--++++++++++++++++++++++++++++++++Footer+++++++++++++++++++++++++++++++++-->
+
+		<div id="footer">
+			<div id="main"></div>
+		</div>
+						<!--++++++++++++++++++++++++++++++++Footer+++++++++++++++++++++++++++++++++-->
+
+		<div id="bottom">
+			<div id="main">
+				<p class = "infor">
+					<a href = "index.html">关于我们</a>|
+					<a href = "">免费条款</a>|
+					<a href = "">中粮集团</a>|
+					<a href = "">友情链接</a>|
+					<a href = "">搜索热词</a>|
+					<a href = "">客服电话：400-005-5678</a>
+				</p>
+				<img  class = "logo"src="http://pic3.womai.com/upload/backend/2016/04/18/14/1460960199064.jpg">
+				<div class = "text">
+					<p class = "text1">Copyright©2009-2016 我买网上购物 All Rights Reserved 中粮海优（北京）有限公司版权所有</p>
+					<p class = "text2">中粮海优（北京）有限公司 北京市朝阳区朝阳门南大街8号18F-09室</p>
+					<p class = "text3"><img src="http://static.womai.com/zhongliang/city/common/images/beian.png" alt="">京公网安备 11010102000458号 京ICP备 13003995号</p>
+					<p class = "text4">营业执照（统一社会信用代码）91110000055590239L  食品经营许可证：JY11105020028185</p>
+				</div>
+				<img class="pic2"src="http://static.womai.com/zhongliang/city/common/images/bottom_img_02.png" alt="">
+			</div>
+		</div>
+			<!--++++++++++++++++++++++++++++++++我的购物车+++++++++++++++++++++++++++++++++-->
+
+		<div id="rightcar">
+			<div class="blackcar">
+				<div class = "shoopcar1">
+					<span class = "car1"></span>
+					购物车
+					<em class = "number"></em>
+				</div>
+				<div class="downcar">
+					<span class = "star">
+						<div>我的收藏</div>
+					</span>
+					<span class = "money">
+						<div>账户中心</div>
+					</span>
+					<span class = "add">
+						<div>在线充值</div>
+					</span>
+					<span class = "code">
+						<div>
+						<img src="http://pic2.womai.com/upload/backend/2016/04/16/23/1460821684796.jpg">
+						</div>
+					</span>
+					<a  href = "#top_small" class = "backtop">
+
+						<div>顶部</div>
+					</a>	
+
+				</div>			
+			</div>
+			<div id = "goodsarea">
+				<h3 class = "title">我的购物车<span class = "dele"></span></h3>
+				<div id="buygoods">
+						
+				</div>
+					<p class = "paymoney">
+						<span class = "amount">已选<em></em>件</span>
+						<span  class = "money">￥<i></i></span>
+					</p>
+				<button id = "nowbuy">结算</button>				
+			</div>
+		</div>
+			<!--++++++++++++++++++++++++++++++++锚点切换+++++++++++++++++++++++++++++++++-->
+			<div id = "anchor">
+				<ul>
+					<li><a href="#guide3"><span>1F</span><em>进口食品</em></a></li>
+					<li><a href="#f1_left_img"><span>2F</span><em>时令蔬果</em></a></li>
+					<li><a href="#f2_left_img"><span>3F</span><em>生鲜日配</em></a></li>
+					<li><a href="#f3_left_img"><span>4F</span><em>包邮直送</em></a></li>
+				</ul>
+			</div>
+
+			<!--++++++++++++++++++++++++++++++++头部固定搜索框+++++++++++++++++++++++++++++++++-->
+
+				<div id = "displaynav">
+				<div id="main">
+					<div id="logo_left_display">
+					<a href = "index.html">
+						<img src = "http://pic1.womai.com/upload/backend/2016/08/31/18/1472640153727.png" alt = "中粮我买">
+					</a>
+				</div>
+				<form id = "search_display">
+					<div id = "search_left_display">
+					    <span></span>
+						<input type="text" placeholder = "全球零食狂欢 满99减30">
+						<button type = "submit">搜索</button>
+					</div>
+				</form>
+				</div>					
+				</div>
+		<!--++++++++++++++++++++++++++++++++延时弹出框+++++++++++++++++++++++++++++++++-->
+		<div id="alertdiv">
+			
+			<a href="http://www.womai.com/sale/2016/xksq1609/">
+				<img src="http://pic3.womai.com/upload/backend/2016/09/13/17/1473757726596.png" alt="注册" />
+			</a>
+			<button></button>
+		</div>
+
+	</body>
+</html>
