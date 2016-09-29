@@ -1,0 +1,552 @@
+*{padding: 0;margin:0;cursor: pointer;}
+body{font:12px/150% Arial,Tahoma,"宋体";color:#606060; }
+a{text-decoration: none;outline: none;}
+li{list-style: none;}
+#main{width:1210px;margin:0 auto;}
+/*++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++*/
+#top_nav{height:32px;background: #f5f5f5;}
+#top_nav #city{
+				line-height: 32px;
+				text-indent:15px;
+				height:32px;
+				background: url("../images/index.png")no-repeat -100px 0;
+				background-position: -100px 0px;
+				float: left;
+				text-indent: 20px;
+				position: relative;
+			}
+#top_nav #city #select{
+					height:5px;
+					display: inline-block;
+					width:6px;
+					background: url("../images/index.png") no-repeat -92px 0;
+					
+					}
+#top_nav #city .city_a{
+							text-decoration: none;
+							cursor: pointer;
+							display: inline-block;
+							width: 58px;
+							height:30px;
+							border: 1px solid #f5f5f5;
+							border-bottom: none;
+							border-top: none;
+							margin-top: 1px;
+						}
+#top_nav #city .city_a:hover{color:#8cb91e;}
+#top_nav #city .city_a:link{color:#606060;}
+#top_nav #city_d{
+					position: absolute;
+					width:309px;
+					height:348px;
+					border: 1px solid #3a9900;
+					top:32px;
+					left:74px;
+					display: none;
+					background: #fff;
+				}
+#top_nav .dele{
+				display: inline-block;
+				width:11px;
+				height:11px;
+				background:url(../images/base.png) no-repeat -98px top;
+				float: right;
+			} 
+#top_nav #city_d .city_s{font-weight: bold;color:#000;}
+
+#top_nav #welcome{float: left;height:32px;line-height: 32px;}
+#top_nav #welcome li{float: left;}
+#top_nav #welcome li a{text-decoration: none;color:#606060;}
+#top_nav #welcome .wel_1{margin: 0 11px 0 32px;}
+#top_nav #welcome .wel_2{margin-right:21px;}
+
+#top_nav #ul_nav{float:right;height:32px;line-height: 32px;}
+#top_nav #ul_nav li{float: left;cursor: pointer;}
+#ul_nav .account{
+					height:30px;
+					border: 1px solid #f5f5f5;
+					border-bottom: none;
+					
+					padding:0 10px 0 14px;
+					
+				 }
+#ul_nav .account #account_d{
+								position: absolute;
+								width:194px;
+								height:202px;
+								border: 1px solid #3a9900;
+								border-top: none;
+								top:32px;
+								left: -1px;
+								background: #fff;
+								display: none;
+							}
+#ul_nav .account span{width:6px;height:3px;background: 
+					url("../images/index.png") no-repeat -92px 0;
+					display: inline-block;margin-left: 6px;}
+#ul_nav .shoopcar{
+					padding: 0 13px 0 20px;
+
+				}
+#ul_nav .shoopcar span{
+						display: inline-block;
+						width:11px;
+						height:11px;
+						background: url("../images/index.png") no-repeat -78px top;
+						margin-right: 3px;	
+}
+#ul_nav .shoopcar i{
+						color:#3a9900;
+						margin:0 1px;
+}
+#ul_nav .shoopcar a{color:#606060;}
+
+#ul_nav .serve{
+				border: 1px solid #f5f5f5;
+				padding:0 13px 0 14px;
+				height:30px;
+				position: relative;
+}
+#ul_nav .serve span{
+					display: inline-block;
+					width:5px;
+					height:3px;
+				
+					background: url(../images/index.png) no-repeat -92px top;
+					
+}
+#ul_nav .serve #serve_d{
+						position: absolute;
+						width:80px;
+						height:82px;
+						border: 1px solid #3a9900;
+						border-top: none;
+						left:-1px;
+						top:30px;
+						display: none;
+						text-align: center;
+						background: #fff;
+}
+#ul_nav .serve #serve_d a{
+							color:#606060;
+}
+#ul_nav .bigCustom,#ul_nav .b2b{
+					padding:0 13px;
+}
+#ul_nav .bigCustom a,#ul_nav .b2b a{
+									color:#606060;
+}
+#ul_nav .icbc a,#ul_nav .bank a{
+							display: inline-block;
+							width:43px;
+							height:15px;
+}
+#ul_nav .icbc a{
+				background:url(../images/index.png) no-repeat 0 0 ;
+				margin:9px 0 0  24px;
+
+}
+#ul_nav .bank a{
+				background: url(../images/index.png) no-repeat 0 -18px;
+				margin: 9px 0 0 15px;
+}
+#ul_nav a:hover{
+				color:#3a9900;
+				text-decoration: underline;
+}
+/*----------------------------------------LOGO搜索栏----------------------------------------------*/
+#logo{
+		height:197px;border-bottom:2px solid #2d8800;
+}
+#logo #main{position: relative;}
+#logo #main #logo_left,#logo #main #logo_center{
+					float: left;
+					margin-top: 43px;
+					
+}
+#logo #main #logo_left img,#logo #main #logo_center img,#logo #logo_app img{height:80px;}
+#logo #logo_app{
+				float: right;
+				margin-top: 43px;
+				margin-left: 50px;
+			
+}
+#logo #search{
+				float: left;
+				width:625px;
+				height:66px;
+				margin-top: 48px;
+				margin-left: 50px;
+			}
+#logo #search #search_left{
+							float: left;
+							width:584px;
+							height:38px;
+							border: 2px solid #c30000;
+							
+
+}
+#logo #search_left span{
+						float: left;
+						display: inline-block;
+						width:16px;
+						height:16px;
+						margin: 11px 6px 0 10px;
+						background: url(../images/index.png) no-repeat -69px -24px ;
+
+}
+#logo #search_left input{
+							width:451px;
+							float: left;
+							height:38px;
+							border: none;
+							background: none;
+}
+#logo #search_left button{
+							width:100px;
+							height:38px;
+							background: #c30000;
+							text-align: center;
+							color:#fff;
+							border: none;
+							font-size:18px;
+							float: right;
+							cursor: pointer;
+}
+#logo #search .text{
+							width:28px;
+							height:42px;
+							float: right;
+							font-size:12px;
+}
+#logo #search .text a{
+						color:#606060;
+
+}
+#logo #search .text a:hover,#logo #newgood a:hover{
+							color:#3a9900;
+							text-decoration: underline;
+}
+
+#logo #newgood a{
+				display: inline-block;
+				margin:12px 18px 0 0 ;
+				color:#606060;
+				font-size: 12px;
+}
+#logo #allgoods{
+				position: absolute;
+				width:210px;
+				height:44px;
+				background: #2d8800;
+				color:#fff;
+				font-size: 16px;
+				font-weight: bold;
+				left: 0;
+				top:155px;
+				text-align: center;
+				line-height: 44px;
+}
+#logo #recommend{
+					float: left;
+					margin: 55px 0 0 -89px;
+}
+#logo #recommend li {
+					float: left;
+					margin-right: 23px;		
+				}
+#logo #recommend li a{
+					font-size: 16px;
+					color:#383838;
+}
+#logo #recommend li a:hover{
+							color: #3ea600;
+						}
+#logo #car{
+			width:200px;
+			height:44px;
+			border: 1px solid #fff;
+			border-bottom: none;
+			float: right;
+			margin:23px 0 0 20px;
+			position: relative;
+}
+#logo #car .bg{
+				display: inline-block;
+				width:27px;
+				height:20px;
+				background: url(../images/index.png) no-repeat -47px 0;
+				position: relative;
+				margin: 9px 15px 0 41px;
+}
+#logo #car span i{
+					display: inline-block;
+					width:25px;
+					height:20px;
+					background: url(../images/index.png) no-repeat -10px -40px;
+					position: absolute;
+					top:-17px;
+					left:10px;
+					color:#fff;
+					text-align: center;
+}
+#logo #car a{color:#606060;font-size: 12px}
+#logo #car a:hover{color:#8cb91e;text-decoration: underline;}
+#logo #car em{
+				display: inline-block;
+				width:8px;
+				height:5px;
+				margin:0 29px 0 38px;
+				background: url(../images/index.png) no-repeat -1px -40px;
+}
+#logo #car #car_d{
+					width:358px;
+					height:300px;
+					border: 1px solid #3a9901;
+					border-top: none;
+					position: absolute;
+					top:47px;
+					left:-159px;
+					display: none;
+					z-index: 9;
+					overflow-y:auto;
+					background: #eee; 
+}
+/*==========================================Footer==============================================*/
+#footer{
+			height:211px;
+			background: #f7f7f7;
+			border-top: 2px solid #e7e7e7;
+			border-bottom: 1px solid #3ea600;
+			padding-top:40px;
+		}
+/*================================================底部==========================================================================*/
+#bottom{height:206px;}
+#bottom #main{text-align: center;}
+#bottom #main  .logo{
+						margin:56px 0px 0px 226px;
+						float: left;
+					}
+#bottom #main .infor{
+						height:14px;
+						line-height: 72px;
+						text-align: center;
+					}
+#bottom #main .infor a{
+						color:#606060;
+						padding: 0 20px 0 20px;
+						display: inline-block;
+					}
+#bottom #main  .text{
+	margin:54px 0 0 0 ;
+	font-size: 12px;
+	float: left;
+}
+#bottom #main  .text p{height:16px;}
+#bottom #main  .text .text2{margin:5px 0 3px -130px;}
+#bottom #main  .text .text3{margin-left: -185px;margin-bottom:5px;}
+#bottom .pic2{
+				margin:160px 0px 0px -350px;
+				float: left;
+			}
+/*================================================我的购物车======================================================*/
+#rightcar{
+			width:310px;
+			position: fixed;
+			background: #e6e6e6;
+			right:-310px;
+			top:0;
+			z-index: 5;
+		}
+#rightcar .blackcar{
+						width:34px;
+						background: #000;
+						position: absolute;
+						left:-34px;
+						height:100%;
+						color:#fff;
+						font-size: 12px;
+					}
+#rightcar .blackcar .shoopcar1{
+								display:inline-block;
+								width:18px;
+								height:115px;
+								margin-top:364%;
+								background: #000;
+								text-align: center;
+								padding:0 8px 0 8px;
+								cursor: pointer;
+							}
+#rightcar .blackcar .shoopcar1 .car1{
+										display: inline-block;
+										width:18px;
+										height:34px;
+										background: url(../images/cart.jpg) no-repeat -179px 0px;
+									}
+#rightcar .blackcar .shoopcar1 .number{
+										display: inline-block;
+										width:18px;
+										height:18px;
+										background: #3da700;
+										border-radius: 3px;
+										text-align: center;
+									}
+#rightcar .blackcar .downcar{
+								width:34px;
+								height:185px;
+								position: absolute;
+								left:0;
+								bottom:3px;
+							}
+#rightcar .blackcar .downcar span{
+									display: inline-block;
+									width:34px;
+									height:34px;
+									background:url(http://static.womai.com/zhongliang/city/index/images/cart.jpg) no-repeat 0 -34px;
+									position: relative;
+								}
+#rightcar .blackcar .downcar span div{
+										position: absolute;
+										display: none;
+
+									}
+#rightcar .blackcar .downcar .star{background-position: 0 0;}
+#rightcar .blackcar .downcar .star:hover{background-position: 0 -34px;}
+#rightcar .blackcar .downcar .star div{
+										width:58px;
+										height:34px;
+										background: #3da700;
+										color:#fff;
+										font-size: 12px;
+										line-height: 34px;
+										text-align: center;
+										left:-58px;
+									}
+#rightcar .blackcar .downcar .money{background-position: -34px 0;}
+#rightcar .blackcar .downcar .money:hover{background-position: -34px -34px;}
+#rightcar .blackcar .downcar .money div{
+										width:58px;
+										height:34px;
+										background: #3da700;
+										color:#fff;
+										font-size: 12px;
+										line-height: 34px;
+										text-align: center;
+										left:-58px;
+									}
+#rightcar .blackcar .downcar .add{background-position: -68px 0;}
+#rightcar .blackcar .downcar .add:hover{background-position: -68px -34px;}
+#rightcar .blackcar .downcar .add div{
+										width:58px;
+										height:34px;
+										background: #3da700;
+										color:#fff;
+										font-size: 12px;
+										line-height: 34px;
+										text-align: center;
+										left:-58px;
+									}
+#rightcar .blackcar .downcar .code{background-position: -102px -0;}
+#rightcar .blackcar .downcar .code:hover{background-position: -102px -34px;}
+#rightcar .blackcar .downcar .code div{
+										width:160px;
+										height:270px;
+										position: relative;
+								 		background: url(../images/2weimaborder.png) no-repeat 0px 0px; 
+										text-align: center;
+										left:-150px;
+										top:-217px;
+									}
+#rightcar .blackcar .downcar .code div img{
+												position: absolute;
+												z-index: 3;
+												left:29px;
+												top:82px;
+												width:100px;
+												height: 100px;
+											}
+#rightcar .blackcar .downcar .backtop{display: inline-block;
+									width:34px;
+									height:34px;
+									background:url(http://static.womai.com/zhongliang/city/index/images/cart.jpg) no-repeat -136px 0px;
+									position: relative;}
+#rightcar .blackcar .downcar .backtop div{
+	position: absolute;
+	display: none;
+
+}
+#rightcar .blackcar .downcar .backtop:hover{background-position: -136px -34px; }
+#rightcar .blackcar .downcar .backtop div{
+										width:58px;
+										height:34px;
+										background: #3da700;
+										color:#fff;
+										font-size: 12px;
+										line-height: 34px;
+										text-align: center;
+										left:-58px;
+									}
+
+#rightcar #goodsarea{
+						position: absolute;
+						width:310px;
+						height:100%;
+						left:310px;
+						padding: 0 10px;
+						
+					}
+#rightcar #goodsarea .title{
+								text-align: center;
+								font-size: 18px;
+								margin-top: 5px;
+								height:30px;
+								line-height: 30px;
+							}
+#rightcar #goodsarea .dele{
+							display: inline-block;
+							width:12px;
+							height:12px;
+							background: url(../images/cart.jpg) no-repeat -238px 0;
+							float: right;
+							margin-right: 20px;
+							margin-top: 10px
+}
+#rightcar #goodsarea #buygoods{
+								position: relative;
+								width:310px;
+								height:82%;
+								overflow-y:auto;
+								
+							}
+/* #rightcar #goodsarea  .paymoney{position: fixed;bottom: 60px;width:310px;} */
+#rightcar #goodsarea  .paymoney .amount{float: left;margin-left: 10px}
+#rightcar #goodsarea  .paymoney .money{float: right;margin-right: 22px;color:#f00;}
+#rightcar #goodsarea #nowbuy{
+								width:100%;
+								height:40px;
+								text-align: center;
+								color:#fff;
+								font-size: 18px;
+								line-height: 40px;
+								background: #dd0800;
+								border: none;
+								cursor: pointer;
+							}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

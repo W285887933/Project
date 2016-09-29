@@ -1,0 +1,190 @@
+
+/*-------------------------------------头部图片----------------------------------------*/
+#top{height:100px;}
+#top{position: relative;}
+#top #top_big{position: absolute;:400px;width:100%;}
+#top #top_small{position: absolute;top:400px;height:100px;width:100%;}
+#top #top_big  img,#top #top_small img {width:100%;}
+
+/*----------------------------------------banner----------------------------------------------*/
+#banner{
+			position: relative;
+			height:450px;
+			z-index: 0;
+		}
+#banner #main{position: relative;}
+#banner #banner_ul{
+					position: absolute;
+					width:100%;
+				}
+#banner #banner_ul li{
+						width:100%;
+						height:450px;
+						text-align: center;
+						float: left;
+						position: relative;					
+					}
+#banner #banner_left #floor_ul .fl0{margin-top: 12px;}
+#banner #banner_left #floor_ul li a{margin-right: 10px;}
+#banner #banner_left #floor_ul li a:hover{text-decoration: underline;}
+#banner #banner_left #floor_ul .fl0 span{background: url(http://pic3.womai.com/upload/backend/2016/04/13/19/1460546017683.png) no-repeat -1px -3px;margin: 0 18px 0 20px;}
+#banner #banner_left #floor_ul .fl1 span{background: url(http://pic2.womai.com/upload/backend/2016/04/13/19/1460546023475.png) no-repeat -1px -3px;margin: 0 18px 0 20px;}
+#banner #banner_left #floor_ul .fl2 span{background: url(http://pic1.womai.com/upload/backend/2016/04/13/19/1460546038630.png) no-repeat -1px -3px;margin: 0 18px 0 20px;}
+#banner #banner_left #floor_ul .fl3 span{background: url(http://pic3.womai.com/upload/backend/2016/04/13/19/1460546045382.png) no-repeat -1px -3px;margin: 0 18px 0 20px;}
+#banner #banner_left #floor_ul .fl4 span{background: url(http://pic1.womai.com/upload/backend/2016/04/13/19/1460546052571.png) no-repeat -1px -3px;margin: 0 18px 0 20px;}
+#banner #banner_left #floor_ul .fl5 span{background: url(http://pic1.womai.com/upload/backend/2016/04/21/11/1461210997828.png) no-repeat -1px -3px;margin: 0 18px 0 20px;}
+#banner #banner_left #floor_ul .fl6 span{background: url(http://pic3.womai.com/upload/backend/2016/04/21/11/1461210984918.png) no-repeat -1px -3px;margin: 0 18px 0 20px;}
+#banner #banner_left #floor_ul .fl7 span{background: url(http://pic3.womai.com/upload/backend/2016/04/21/11/1461211012242.png) no-repeat -1px -3px;margin: 0 18px 0 20px;}
+#banner #banner_left #floor_ul .fl8 span{background: url(http://pic1.womai.com/upload/backend/2016/04/13/19/1460546123776.png) no-repeat -1px -3px;margin: 0 18px 0 20px;}
+#banner #banner_left #floor_ul .fl9 span{background: url(http://pic1.womai.com/upload/backend/2016/04/13/19/1460546134567.png) no-repeat -1px -3px;margin: 0 18px 0 20px;}
+#banner #banner_left #floor_ul .fl10 span{background: url(http://pic1.womai.com/upload/backend/2016/04/13/19/1460546142238.png) no-repeat -1px -3px;margin: 0 18px 0 20px;}
+#banner_center ul li a:hover{text-decoration: underline;} 
+/*----------------------------------------【每日劲爆品】----------------------------------------------*/
+#guide0{height:367px;padding-top: 22px;}
+#guide1{height:466px;padding-top: 8px;}
+#guide2{height:367px;padding-top: 8px;}
+#guide3{height:110px;padding: 30px 0 0 0;}
+#floor1{height:556px;}
+#floor2{height:556px;}
+#floor3{height:556px;}
+#floor4{height:556px;}
+#summary{height:778px;}
+#summary .gap{
+				height:46px;
+				background: #fff;
+				width:100%;
+				border-bottom: 2px solid #3ea600;
+			}
+/* #footer{
+			height:211px;
+			background: #f7f7f7;
+			border-top: 2px solid #e7e7e7;
+			border-bottom: 1px solid #3ea600;
+			padding-top:40px;
+		} */
+
+/*============================================================================================*/
+#anchor{
+			width:60px;
+			position: fixed;
+			background: #c5cdf8;
+			left:12%;
+			top:30%;
+			z-index: 5;
+			display: none;
+			height:164px;
+		}
+
+#anchor ul li{
+				position: relative;
+				text-align: center;
+				height:40px;
+				line-height: 40px;
+				border-bottom: 1px dashed #bbb;
+				cursor: pointer;
+			}
+			#anchor ul li a{color:#606060;}
+#anchor ul li span{display: block;}
+#anchor ul li em {display: none;font-style: normal;}
+
+#displaynav{
+				height:80px;
+				position: fixed;
+				top:0;
+				background: #fff;
+				width:100%;
+				z-index: 4;
+				display: none;
+			}
+#displaynav #main #logo_left_display{
+					float: left;										
+}
+#displaynav #search_display{
+				float: right;
+				width:625px;
+				height:42px;
+				margin-top: 22px;
+				margin-right: 140px;
+			}
+#displaynav #search_display #search_left_display{
+							float: left;
+							width:584px;
+							height:38px;
+							border: 2px solid #c30000;							
+}
+#displaynav #search_left_display span{
+						float: left;
+						display: inline-block;
+						width:16px;
+						height:16px;
+						margin: 11px 6px 0 10px;
+						background: url(../images/index.png) no-repeat -69px -24px ;
+
+}
+#displaynav #search_left_display input{
+							width:451px;
+							float: left;
+							height:38px;
+							border: none;
+							background: none;
+}
+#displaynav #search_left_display button{
+							width:100px;
+							height:38px;
+							background: #c30000;
+							text-align: center;
+							color:#fff;
+							border: none;
+							font-size:18px;
+							float: right;
+							cursor: pointer;
+}
+#alertdiv{
+	position: fixed;
+	top:-17%;
+	left:34%;
+	height:auto;
+	width:auto;
+	z-index: 7;
+	display: none;
+}
+#alertdiv button{
+	position: absolute;
+	right:5px;
+	top:5px;
+	width:38px;
+	height:38px;
+	background: url(../images/close.png) no-repeat 0 0;
+	border: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

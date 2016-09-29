@@ -1,0 +1,111 @@
+/*================================指引栏========================================*/
+#guide{height:50px;}
+#guide p{height:27px;line-height: 27px;border-bottom: 3px solid #8cb91e;}
+#guide p a{font-size: 12px;color:#606060;}
+#guide p a:last-child{color:#418700;}
+/*================================物品信息栏========================================*/
+#view{height:438px;}
+#glance{min-height:4950px;}
+#glance #glance_hot{float:left;width:210px;}
+#glance_hot dl{height:117px;width:182px;border:1px solid #e9e9e9;border-top: 1px solid #8cb91e;margin-bottom: 10px;padding-left: 13px;padding-top: 13px}
+#glance_hot dl h3{width:208px;height:28px;border-bottom: 1px solid #e9e9e9;background:#f7f8f8;line-height: 28px;font-size:12px;font-weight: bold; }
+#glance_hot dl dt{float: left;width:60px;height:60px;border:1px solid #e9e9e9;position: relative;}
+#glance_hot dl dt span{display: inline;width:18px;height:18px;background: url(../images/rank.png) no-repeat 0 0;position: absolute;z-index: 1;}
+#glance_hot dl dd{float: left;margin-left: 10px;width:102px;height:60px;}
+#glance_hot dl dd p:last-child{color:#f00;}
+#glance_right{width:780px;float:left;margin-left: 10px}
+#glance_right .gl_ul{width:780px;height:32px;border-bottom: 1px solid #8cb91e}
+#glance_right .gl_ul li{float: left;width:100px;text-align: center;line-height: 32px;height: 32px;background: url(../images/detail_btn.png) no-repeat -122px -362px;}
+#glance_right .gl_ul li a{color:#606060;}
+#glance_right .gl_ul li:last-child{width:auto;margin-left: 60px;}
+#glance_right .gl_ul li:last-child span{display: inline-block;width: 20px;height:20px;background: url(../images/detail_btn.png) no-repeat -215px -272px;float: left;margin-top: 5px}
+#glance_right #gap_line{height:19px;border-bottom: 1px dashed #aaa;}
+#glance_right #pic p{height:55px;line-height: 55px;font-size: 14px;font-weight: bold;text-align: center;}
+#glance_right #gap_txt{height:49px;}
+#glance_right #gap_txt p{border: 1px solid #e9e9e9;height:32px;background: #f7f8f8;line-height: 32px}
+#glance_right #gap_txt p span{color:#8cb91e;}
+#glance_right #evaluate{height:921px;border-top: 1px solid #8cb91e;border-bottom: 1px solid #8cb91e}
+#glance_right #evaluate .title{height: 28px;font-size: 12px;border: 1px solid #e9e9e9;background: #f8f8f8;line-height: 28px;}
+#glance_right #evaluate #circle{height:203px;position: relative;}
+#glance_right #evaluate #circle .circle_shap{width:131px;height:161px;position: absolute;top:21px;left:24px;}
+#glance_right #evaluate #circle .circle_shap span{display: inline-block;;width:130px;height:130px;background: url(../images/circle.png) no-repeat 0 0;text-align: center;vertical-align: middle;}
+#glance_right #evaluate #circle .circle_shap span em{margin-top: 56px;display: inline-block;}
+#glance_right #evaluate #circle .circle_shap span em a{color: #8cb91e;}
+#glance_right #evaluate #circle .circle_shap p{margin-top: 18px;height: 14px;font-size: 14px;line-height: 14px;}
+#glance_right #evaluate #circle .circle_shap p i{color:#8cb91e;font-style: normal;margin: 0 5px}
+#glance_right #evaluate .btn{width:87px;height:23px;border: none;background: url(../images/detail_btn.png) no-repeat -127px -443px;cursor: pointer;float: right;margin: -140px 100px 0 0;}
+#glance_right #evaluate .num{width:435px;height: 14px;margin: -103px 0 0 249px }
+#glance_right #evaluate .num span{color:#f00;}
+#glance_right #evaluate .num a{color:#8cb91e;text-decoration: underline;}
+#glance_right #evaluate .ev_ul{background: url(../images/common_tab.png) no-repeat 0 0;width:537px;height:29px;float: left}
+#glance_right #evaluate .ev_ul li{float: left;width:107px;text-align: center;background: url(../images/detail_btn.png) no-repeat -17px -61px;line-height: 29px}
+#glance_right #evaluate .all{float: left;display: inline-block;height:29px;line-height: 29px;width: 106px;background: #f8f8f8;}
+#glance_right #evaluate .ev_ul li a{color:#606060;}
+#glance_right #evaluate .all span{display: inline-block;width:14px;height:14px;background: url(../images/detail_btn.png)  no-repeat -218px -8px; }
+#glance_right #evaluate .all a{color:#606060;}
+#eval_text1 {float: left;margin-bottom: 10px;}
+
+#eval_text1 #alternateRemark .head_icon_fl{float: left}
+#eval_text1 #alternateRemark .reply_r_fl dl{float: left}
+#glance_right #evaluate .page{float: right;margin: 353px 0 0 0 ;}
+#glance_right #evaluate .page button{float: left;}
+#glance_right #evaluate .page button:last-child{float: right}
+#glance_right #evaluate .page input{width:37px;height:26px;}
+#glance_right #evaluate .page button:first-child{width:27px;height:27px;background: url(../images/detail_btn.png) no-repeat -140px -105px ;}
+#glance_right #evaluate .page button:last-child{width:42px;height:27px;background: url(../images/detail_btn.png) no-repeat -193px -105px ;}
+
+/*==============================================================================================================*/
+#glance_right #loop_pic .title{height: 28px;font-size: 12px;border: 1px solid #e9e9e9;background: #f8f8f8;line-height: 28px;}
+
+#glance_right #loop_pic .loop_ul{height:126px;text-align: center;}
+#glance_right #loop_pic .loop_ul li{width:90px;height:126px;background: url(../images/expert_tit.png) no-repeat -720px 0;float: left;}
+#glance_right #loop_pic .loop_ul li span{background: url(../images/expert_tit.png) no-repeat;display: block;width:90px;height:126px;}
+#glance_right #loop_pic .loop_ul li .pic_1{background-position: 0 0;}
+#glance_right #loop_pic .loop_ul li .pic_2{background-position: -90px 0;}
+#glance_right #loop_pic .loop_ul li .pic_3{background-position: -180px 0;}
+#glance_right #loop_pic .loop_ul li .pic_4{background-position: -270px 0;}
+#glance_right #loop_pic .loop_ul li .pic_5{background-position: -360px 0;}
+#glance_right #loop_pic .loop_ul li .pic_6{background-position: -450px 0;}
+#glance_right #loop_pic .loop_ul li .pic_7{background-position: -540px 0;}
+#glance_right #loop_pic .loop_ul li .pic_8{background-position: -630px 0;}
+#glance_right #loop_pic .loop_img{width:739px;height:598px;position: relative;}
+#glance_right #loop_pic .loop_img li{position: absolute;display: none;}
+#glance_right #loop_pic .loop_img .one{display: block;}
+#glance_right h5{height: 28px;font-size: 12px;border: 1px solid #e9e9e9;background: #f8f8f8;line-height: 28px;}
+#glance_right h6{height:46px;color:#9fa0a0;font-size: 12px;line-height: 46px;border-top: 1px solid #dcdddd}
+#glance_right h2{height:30px;color:#9fa0a0;font-size: 12px;line-height: 30px;border-bottom: 1px solid #dcdddd}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
